@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+#root {
+  min-height: 100vh;
+}
+/* Desktop Layout */
+@media screen and (min-width: 768px) {
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome-page,
+  .login-page,
+  .register-page,
+  .account-page {
+    width: 375px;
+    min-height: 812px;
+    background: #f7f8f9;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 767px) {
+  .welcome-page,
+  .login-page,
+  .register-page,
+  .account-page {
+    width: 100%;
+    min-height: 100vh;
+  }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+  .welcome-page,
+  .login-page,
+  .register-page,
+  .account-page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}

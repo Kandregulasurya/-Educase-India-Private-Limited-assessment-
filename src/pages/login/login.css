@@ -1,0 +1,23 @@
+.login-page {
+  min-height: 100vh;
+  background: #f7f8f9;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.login-page h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d2226;
+  margin-bottom: 12px;
+}
+
+.login-page p {
+  color: #919191;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.login-page .btn {
+  margin-top: 10px;
+}

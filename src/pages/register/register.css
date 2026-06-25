@@ -1,0 +1,98 @@
+.register-page {
+  min-height: 100vh;
+  background: #f7f8f9;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-page h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1d2226;
+  margin-bottom: 25px;
+}
+
+.agency-section {
+  margin: 15px 0 25px;
+}
+
+.agency-section p {
+  margin-bottom: 12px;
+  color: #1d2226;
+  font-weight: 500;
+  text-align: left;
+}
+
+.agency-section label {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.agency-section input {
+  margin-right: 8px;
+}
+
+.register-page .btn {
+  margin-top: auto;
+}
+
+.agency-section {
+  margin-top: 10px;
+}
+
+.agency-section p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d2226;
+  margin-bottom: 14px;
+}
+
+.agency-section p span {
+  color: #dd4a3d;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #1d2226;
+}
+
+.radio-label input {
+  display: none;
+}
+
+.custom-radio {
+  width: 22px;
+  height: 22px;
+  border: 2px solid #cbcbcb;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.radio-label input:checked + .custom-radio {
+  border-color: #6c25ff;
+}
+
+.radio-label input:checked + .custom-radio::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: #6c25ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
