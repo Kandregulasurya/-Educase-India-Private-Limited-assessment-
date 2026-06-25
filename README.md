@@ -36,7 +36,7 @@ The design is responsive and follows the layout provided in the assignment. The 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Kandregulasurya/-Educase-India-Private-Limited-assessment->
 ```
 
 Navigate to the project folder:
